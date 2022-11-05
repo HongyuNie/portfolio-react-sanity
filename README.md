@@ -1,3 +1,48 @@
+Reference: https://www.youtube.com/watch?v=NO7_jgzVgbc&list=WL&index=24
+
+## Commands Sequence
+
+### Create a react application
+
+`npx create-react-app portfolio` 
+
+open VScode build-in terminal, run `npm start`, will start on local:host 3000 in browser
+
+### Building sanity studio
+
+use plus sign open another terminal in VScode, run `npm install -g @sanity/cli`
+
+run `sanity login` to log in sanity through terminal, log in with github
+
+run `sanity init`, to initialize a new sanity project, name "studio", choose "Blog (schema)" template for this project. content will live in sanity studio.
+
+`cd studio` to navigate into the sanity studio folder, then run `sanity start` 
+
+connect sanity project and react project, create client.js under src folder
+
+open a new terminal `npm install @sanity/client`
+
+### Connect React App and Sanity Project
+
+React to Sanity: create client.js under src folder
+
+Sanity to React: manage.sanity.io, add URL http://localhost:3000 trusted URL while it making requests
+
+### Progress saving
+
+In .gitginore file, change `/node_modules` to `node_modules`
+
+refresh on source control pages, 10k+ changes will change to only 21
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
