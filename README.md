@@ -34,6 +34,13 @@ In .gitginore file, change `/node_modules` to `node_modules`
 
 refresh on source control pages, 10k+ changes will change to only 21
 
+### Set up tailwind
+
+In index.css file, import tailwind and prose class, set up some customized style as well
+
+### React Routing
+
+`npm install react-router-dom`
 
 
 
