@@ -46,8 +46,9 @@ notice the syntax might be different when set up the routing, navigate to
 [React Documentation](https://reactjs.org/docs/code-splitting.html#route-based-code-splitting) for more examples.
 
 
+### Navbar component
 
-
+`npm install react-social-icons` to install the react package for social icons in navbar.
 
 
 
