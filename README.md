@@ -42,6 +42,8 @@ In index.css file, import tailwind and prose class, set up some customized style
 
 `npm install react-router-dom`
 
+notice the syntax might be different when set up the routing, navigate to
+[React Documentation](https://reactjs.org/docs/code-splitting.html#route-based-code-splitting) for more examples.
 
 
 
