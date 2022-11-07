@@ -51,6 +51,15 @@ notice the syntax might be different when set up the routing, navigate to
 `npm install react-social-icons` to install the react package for social icons in navbar.
 
 
+### SinglePost component
+
+`npm install @sanity/image-url`
+
+--old: for block content install `npm install @sanity/block-content-to-react`
+
+--new `import {PortableText} from '@portabletext/react'`
+https://github.com/portabletext/react-portabletext
+
 
 
 # Getting Started with Create React App
